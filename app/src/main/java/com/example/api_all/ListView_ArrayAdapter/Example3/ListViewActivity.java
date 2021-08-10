@@ -33,6 +33,7 @@ public class ListViewActivity extends AppCompatActivity {
         countriesList.setAdapter(adapter);
         //set for item adapter
         countriesList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {

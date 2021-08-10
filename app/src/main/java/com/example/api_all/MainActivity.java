@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.example.api_all.ListView_ArrayAdapter.Example1.StartActivity;
 import com.example.api_all.ListView_ArrayAdapter.Example2.StringActivity;
 import com.example.api_all.ListView_ArrayAdapter.Example3.ListViewActivity;
+import com.example.api_all.ListView_ArrayAdapter.Example4.AddAllActivity;
 
 public class MainActivity extends AppCompatActivity {
     Button button;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
+                Intent intent = new Intent(MainActivity.this, AddAllActivity.class);
                 startActivity(intent);
             }
         });
