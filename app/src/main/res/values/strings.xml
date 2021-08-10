@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Api_all</string>
+    <string-array name="countries">
+        <item>Бразилия</item>
+        <item>Аргентина</item>
+        <item>Колумбия</item>
+        <item>Чили</item>
+        <item>Уругвай</item>
+    </string-array>
+</resources>
