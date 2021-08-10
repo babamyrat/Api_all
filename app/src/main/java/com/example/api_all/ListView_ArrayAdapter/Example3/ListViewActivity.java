@@ -3,6 +3,7 @@ package com.example.api_all.ListView_ArrayAdapter.Example3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.SparseBooleanArray;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -27,7 +28,7 @@ public class ListViewActivity extends AppCompatActivity {
         ListView countriesList = findViewById(R.id.ListView3);
 
         //Add adapter
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, countries);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_multiple_choice, countries);
 
         countriesList.setAdapter(adapter);
         //set for item adapter
@@ -39,12 +40,16 @@ public class ListViewActivity extends AppCompatActivity {
                    view : нажатый виджет внутри AdapterView
                    position : индекс нажатого виждета внутри AdapterView
                    id : идентификатор строки нажатого элемента*/
+                SparseBooleanArray selected = countriesList.getCheckedItemPositions();
 
-                //by position get the selected item
-                String selectedItem = (String)parent.getItemAtPosition(position);
+                String selectedItems = "";
+                for (int i=0; i < countries.length; i++){
+                    if (selected.get(i))
+                        selectedItems += countries[i]+",";
+                }
 
                 //set text item TextView
-                selection.setText(selectedItem);
+                selection.setText("Выбырано: " + selectedItems);
 
             }
         });
