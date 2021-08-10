@@ -41,8 +41,7 @@ public class ListViewActivity extends AppCompatActivity {
                    id : идентификатор строки нажатого элемента*/
 
                 //by position get the selected item
-                String selectedItem =  countries[position];
-//                        (String)parent.getItemAtPosition(position);
+                String selectedItem = (String)parent.getItemAtPosition(position);
 
                 //set text item TextView
                 selection.setText(selectedItem);
