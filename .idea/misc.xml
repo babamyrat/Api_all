@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_adapter_tree.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_add_all.xml" value="0.25" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_list_view.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_hello.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_list.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_list_view.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_main2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_spinner.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_start.xml" value="0.15" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/activity_string.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/hello_item.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Api_all/app/src/main/res/layout/tree_item.xml" value="0.27291666666666664" />
       </map>
     </option>
   </component>
