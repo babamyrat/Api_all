@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Api_all">
         <activity
+            android:name=".ListView_ArrayAdapter.Example8.SpinnerBigActivity"
+            android:exported="true" />
+        <activity
             android:name=".ListView_ArrayAdapter.Example7.SpinnerActivity"
             android:exported="true" />
         <activity
