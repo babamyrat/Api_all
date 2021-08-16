@@ -7,14 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.api_all.ListView_ArrayAdapter.Example1.StartActivity;
-import com.example.api_all.ListView_ArrayAdapter.Example2.StringActivity;
-import com.example.api_all.ListView_ArrayAdapter.Example3.ListViewActivity;
-import com.example.api_all.ListView_ArrayAdapter.Example4.AddAllActivity;
-import com.example.api_all.ListView_ArrayAdapter.Example5.AdapterTreeActivity;
-import com.example.api_all.ListView_ArrayAdapter.Example6.HelloActivity;
-import com.example.api_all.ListView_ArrayAdapter.Example7.SpinnerActivity;
-
 public class MainActivity extends AppCompatActivity {
     Button button;
 
@@ -27,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, SpinnerActivity.class);
+                Intent intent = new Intent(MainActivity.this, RecyclerClickActivity.class);
                 startActivity(intent);
             }
         });

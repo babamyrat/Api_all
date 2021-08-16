@@ -25,7 +25,7 @@ public class SpinnerBigActivity extends AppCompatActivity {
 
         Spinner spinner = findViewById(R.id.spinner2);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, countries);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, countries);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
@@ -44,8 +44,7 @@ public class SpinnerBigActivity extends AppCompatActivity {
             }
         };
 
-        spinner.setOnItemClickListener(itemSelectedListener);
-
+        spinner.setOnItemSelectedListener(itemSelectedListener);
 
     }
 }
