@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.api_all.ListView_ArrayAdapter.Example13.DragLinearLayoutActivity;
+
 public class MainActivity extends AppCompatActivity {
     Button button;
 
@@ -19,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, RecyclerClickActivity.class);
+                Intent intent = new Intent(MainActivity.this, DragLinearLayoutActivity.class);
                 startActivity(intent);
             }
         });

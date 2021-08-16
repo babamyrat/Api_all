@@ -56,7 +56,6 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.MyViewHolder
             nameView = itemView.findViewById(R.id.txtName);
             capitalView = itemView.findViewById(R.id.txtCapital);
 
-
         }
     }
 }
