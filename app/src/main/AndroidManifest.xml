@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Api_all">
         <activity
+            android:name=".Projct.Example2.ViewDispleyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Projct.Example1.SplashSecondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Projct.Example1.SplashActivity"
+            android:exported="true" />
+        <activity
             android:name=".ListView_ArrayAdapter.Example13.DragLinearLayoutActivity"
             android:exported="true" />
         <activity

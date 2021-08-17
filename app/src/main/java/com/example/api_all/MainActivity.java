@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.api_all.ListView_ArrayAdapter.Example13.DragLinearLayoutActivity;
+import com.example.api_all.Projct.Example1.SplashActivity;
+import com.example.api_all.Projct.Example2.ViewDispleyActivity;
 
 public class MainActivity extends AppCompatActivity {
     Button button;
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DragLinearLayoutActivity.class);
+                Intent intent = new Intent(MainActivity.this, ViewDispleyActivity.class);
                 startActivity(intent);
             }
         });

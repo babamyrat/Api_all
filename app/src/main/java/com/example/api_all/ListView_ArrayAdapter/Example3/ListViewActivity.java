@@ -37,10 +37,7 @@ public class ListViewActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
-             /**   parent : нажатый элемент AdapterView (в роли которого в данном случае выступает наш элемент ListView)
-                   view : нажатый виджет внутри AdapterView
-                   position : индекс нажатого виждета внутри AdapterView
-                   id : идентификатор строки нажатого элемента*/
+
                 SparseBooleanArray selected = countriesList.getCheckedItemPositions();
 
                 String selectedItems = "";
