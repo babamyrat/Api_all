@@ -1,4 +1,4 @@
-package com.example.api_all.Projct.Example2;
+package com.example.api_all.Project.Example2;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;

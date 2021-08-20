@@ -10,19 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Api_all">
         <activity
-            android:name=".Projct.Example4.CalculatorActivity"
+            android:name=".Project.Example8.TestOneActivity"
             android:exported="true" />
         <activity
-            android:name=".Projct.Example3.TsetActivity"
+            android:name=".Project.Example7.CardSmsActivity"
             android:exported="true" />
         <activity
-            android:name=".Projct.Example2.ViewDispleyActivity"
+            android:name=".Project.Example6.SheetActivity"
             android:exported="true" />
         <activity
-            android:name=".Projct.Example1.SplashSecondActivity"
+            android:name=".Project.Example5.MessageStartActivity"
             android:exported="true" />
         <activity
-            android:name=".Projct.Example1.SplashActivity"
+            android:name=".ListView_ArrayAdapter.ListAdapterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Project.ProjectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Project.Example4.CalculatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Project.Example3.TsetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Project.Example2.ViewDispleyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Project.Example1.SplashSecondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Project.Example1.SplashActivity"
             android:exported="true" />
         <activity
             android:name=".ListView_ArrayAdapter.Example13.DragLinearLayoutActivity"

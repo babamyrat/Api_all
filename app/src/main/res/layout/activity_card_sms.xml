@@ -4,15 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Project.Example3.TsetActivity">
-
-    <TextView
-        android:id="@+id/selectedMenuItem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="28sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".Project.Example7.CardSmsActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

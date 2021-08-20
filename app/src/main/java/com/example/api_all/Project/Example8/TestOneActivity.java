@@ -1,4 +1,4 @@
-package com.example.api_all.Projct.Example1;
+package com.example.api_all.Project.Example8;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,13 +6,11 @@ import android.os.Bundle;
 
 import com.example.api_all.R;
 
-public class SplashSecondActivity extends AppCompatActivity {
+public class TestOneActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash_second);
-
-
+        setContentView(R.layout.activity_test_one);
     }
 }

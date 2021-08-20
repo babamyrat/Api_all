@@ -1,6 +1,5 @@
-package com.example.api_all.Projct.Example3;
+package com.example.api_all.Project.Example3;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
