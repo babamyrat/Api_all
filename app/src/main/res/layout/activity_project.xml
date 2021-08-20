@@ -137,7 +137,25 @@
                 android:layout_height="match_parent"
                 android:gravity="center|start"
                 android:layout_margin="10dp"
-                android:text="Add Rate the App feature" />
+                android:text="Add Rate the App feature 7" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSum8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="120dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:layout_margin="10dp"
+                android:text="Test RecyclerView 8" />
 
         </androidx.cardview.widget.CardView>
 
