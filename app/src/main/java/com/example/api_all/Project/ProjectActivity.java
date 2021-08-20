@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import com.example.api_all.Project.Example1.SplashActivity;
 import com.example.api_all.Project.Example10.ProgressMiniActivity;
+import com.example.api_all.Project.Example11.PushActivity;
 import com.example.api_all.Project.Example2.ViewDispleyActivity;
 import com.example.api_all.Project.Example3.TsetActivity;
 import com.example.api_all.Project.Example4.CalculatorActivity;
@@ -19,7 +20,7 @@ import com.example.api_all.Project.Example9.ListOkActivity;
 import com.example.api_all.R;
 
 public class ProjectActivity extends AppCompatActivity {
-     CardView card1, card2, card3, card4, card5, card6, card7, card8, card9, card10;
+     CardView card1, card2, card3, card4, card5, card6, card7, card8, card9, card10, card11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,7 @@ public class ProjectActivity extends AppCompatActivity {
         card8 = findViewById(R.id.cardSum8);
         card9 = findViewById(R.id.cardSum9);
         card10 = findViewById(R.id.cardSum10);
+        card11 = findViewById(R.id.cardSum11);
 
         card1.setOnClickListener(view -> startActivity(new Intent(ProjectActivity.this, SplashActivity.class)));
         card2.setOnClickListener(view -> startActivity(new Intent(ProjectActivity.this, ViewDispleyActivity.class)));
@@ -47,5 +49,6 @@ public class ProjectActivity extends AppCompatActivity {
         card8.setOnClickListener(view -> startActivity(new Intent(ProjectActivity.this, TestOneActivity.class)));
         card9.setOnClickListener(view -> startActivity(new Intent(ProjectActivity.this, ListOkActivity.class)));
         card10.setOnClickListener(view -> startActivity(new Intent(ProjectActivity.this, ProgressMiniActivity.class)));
+        card11.setOnClickListener(view -> startActivity(new Intent(ProjectActivity.this, PushActivity.class)));
     }
 }

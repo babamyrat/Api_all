@@ -61,4 +61,7 @@ dependencies {
     //Progress
 
     implementation 'com.qifan.typingIndicator:typingIndicator:0.1.0'
+
+    //push
+    implementation "androidx.core:core:1.6.0"
 }
