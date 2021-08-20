@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Api_all">
         <activity
+            android:name=".Project.Example10.ProgressMiniActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Project.Example9.ListOkActivity"
+            android:exported="true" />
+        <activity
             android:name=".Project.Example8.TestOneActivity"
             android:exported="true" />
         <activity

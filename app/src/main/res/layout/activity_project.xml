@@ -160,6 +160,44 @@
         </androidx.cardview.widget.CardView>
 
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSum9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="120dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:layout_margin="10dp"
+                android:text="Random List 9" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSum10"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="120dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:layout_margin="10dp"
+                android:text="Progress Three dot (...) 10" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
     </GridLayout>
 
 </ScrollView>

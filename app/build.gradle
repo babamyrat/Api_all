@@ -54,4 +54,11 @@ dependencies {
 
     //RecyclerView
     implementation "androidx.recyclerview:recyclerview:1.2.1"
+
+    //random list
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    //Progress
+
+    implementation 'com.qifan.typingIndicator:typingIndicator:0.1.0'
 }
